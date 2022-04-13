@@ -11,7 +11,7 @@ object BotResponse {
 
     fun basicResponses(_message: String): String {
 
-        val random = (0..2).random()
+        val random = (0..3).random()
         val message = _message.toLowerCase(Locale.ROOT)
 
         return when {
@@ -37,7 +37,7 @@ object BotResponse {
             }
 
 
-            message.contains("oi") as Boolean -> {
+            message.contains("oi") -> {
                 when (random) {
                     0 -> "Ola!"
                     1 -> "e ai"
@@ -45,7 +45,7 @@ object BotResponse {
                     else -> "error"
                 }
             }
-            message.contains("bom dia") as Boolean-> {
+            message.contains("bom dia") -> {
                 when (random) {
                     0 -> "Bom dia!"
                     1 -> "Bom dia!"
@@ -53,7 +53,7 @@ object BotResponse {
                     else -> "error"
                 }
             }
-            message.contains("boa tarde") as Boolean-> {
+            message.contains("boa tarde") -> {
                 when (random) {
                     0 -> "Boa tarde!"
                     1 -> "Boa tarde!"
@@ -61,7 +61,7 @@ object BotResponse {
                     else -> "error"
                 }
             }
-            message.contains("boa noite") as Boolean-> {
+            message.contains("boa noite") -> {
                 when (random) {
                     0 -> "Boa noite!"
                     1 -> "Boa noite!"
@@ -70,7 +70,7 @@ object BotResponse {
                 }
             }
 
-            message.contains("como você está?") as Boolean-> {
+            message.contains("como você está?") -> {
                 when (random) {
                     0 -> "Estou bem, obrigado!"
                     1 -> "Estou com fome..."

@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     OPEN_SEARCH -> {
                         val site = Intent(Intent.ACTION_VIEW)
-                        val searchTerm: String? = message.substringAfterLast("search")
+                        val searchTerm: String = message.substringAfterLast("search")
                         site.data = Uri.parse("https://www.google.com/search?&q=$searchTerm")
                         startActivity(site)
                     }
