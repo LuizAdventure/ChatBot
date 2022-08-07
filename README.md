@@ -1,4 +1,2 @@
 # ChatBot
-This is a sample app that can be used to experiment with creating real chat apps in Android with Kotlin.
-
-Clone the sample code and play around with the classes and the xml files to create your own ChatBot app!
+[![Linkedin Badge](https://img.shields.io/badge/-Luiz%20Aberto-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/luiz-alberto-1285591b7/)](https://www.linkedin.com/in/luiz-alberto-1285591b7/)  [![Gmail Badge](https://img.shields.io/badge/-luizsbb@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:luizsbb@gmail.com)](mailto:luizsbb@gmail.com)
